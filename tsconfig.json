@@ -5,5 +5,8 @@
     "strict": true,
     "moduleResolution": "node",
     "types": []
-  }
+  },
+  "exclude": [
+    "**/*.patch.ts"
+  ]
 }
