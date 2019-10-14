@@ -1,0 +1,24 @@
+{
+  "name": "ts-ambient-declarations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "no-bundle": "tsc src/index.ts",
+    "bundle-atl": "webpack --config ./webpack.atl.js",
+    "bundle-bl": "webpack --config ./webpack.bl.js",
+    "bundle-tl": "webpack --config ./webpack.tl.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-typescript": "^7.6.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}

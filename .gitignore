@@ -1,0 +1,12 @@
+.rpt2_cache
+.DS_Store
+*.swp
+.jshintrc
+.vs/
+.idea/
+.vscode/
+.project
+node_modules
+*.ignore.*
+build
+npm-debug.log
